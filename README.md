@@ -1,5 +1,7 @@
 Redfin Analytics: Python ETL Pipeline with Airflow - Data Engineering Project
+
 This project demonstrates building an end-to-end ETL (Extract, Transform, Load) pipeline to fetch real estate data from Redfin. The pipeline uses Apache Airflow for orchestration, AWS EC2 for hosting, AWS S3 for storage, Snowflake for data warehousing with Snowpipe for automated ingestion, and Power BI for visualization.
+
 The data is extracted from Redfin's public market tracker dataset, transformed using Pandas, stored in S3 buckets, ingested into Snowflake via Snowpipe triggered by S3 events, and finally visualized in Power BI.
 Prerequisites
 
