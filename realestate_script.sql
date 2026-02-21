@@ -57,7 +57,7 @@ CREATE OR REPLACE SCHEMA external_stage_schema;
 CREATE OR REPLACE STAGE redfin_analytics_database.external_stage_schema.redfin_dw_ext_stage 
     url="s3://redfin-analytics-transformed-data-bucket/"
     credentials=(aws_key_id='AKIAXXXXXXXXXXXXXXXX'           --- AWS IAM User Access key
-    aws_secret_key='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')    --- AWS IAM User Secret Access key
+    aws_secret_key='XXXXXXXXXXX')    --- AWS IAM User Secret Access key
     FILE_FORMAT = redfin_analytics_database.file_format_schema.csv_format;
 
 -------------------------------- Create the Snowpipe ---------------------------
